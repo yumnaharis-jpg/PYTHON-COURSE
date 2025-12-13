@@ -1,0 +1,22 @@
+# A = 5
+# B=6
+# C=3
+# D=8
+# E=0
+# E= (D + A) * C/B; 
+# print("value of (D+A) * C/B is ", E)
+  
+name = "Alex"
+age = 0
+if name == "Alex" or name == "John" and age >= 2: 
+  print("Hello! your parents have a  good taste in name picking!") 
+else:
+  print("I do not wish to say your name..")
+
+
+
+
+
+
+
+
