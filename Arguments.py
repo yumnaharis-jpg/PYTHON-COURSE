@@ -19,5 +19,3 @@ print("Thank you for coming by see you next time!")
 
 
 
-
-
