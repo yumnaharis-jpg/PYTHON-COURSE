@@ -10,4 +10,3 @@ User_input = input("do you wish to shutdown this device? yes/no: ")
 print(shutdown(User_input))
 
 
-
