@@ -1,0 +1,13 @@
+import random 
+playing = True
+number = str(random.randint(5, 20))
+print ("i will generate a number from 5 to 20 and u have to guess the number, one digit at a time. ")
+print("this game ends when u guess the correct number at the correct time")
+while playing:
+    guess = input("give me your best guess!/n")
+    if number == guess:
+        print("you win the game! you get....NOTHING MUAHAHAHAHA")
+        print("the number was",number)
+        break
+    else:
+        print("suks to suk YOU'LL NEVER WIN MUAAHAHAH")
