@@ -3,7 +3,7 @@ while True:
   user_action = input("ROCK, PAPER, SCISSORS SHOOT!:")
   possible_actions = ["rock", "paper" , "scissors"]
   computer_action = random.choice(possible_actions)
-  print(f"/nYou chose {user_action}, computer chose {computer_action}./n")
+  print(f"You chose {user_action}, computer chose {computer_action}.")
   if user_action == computer_action:
     print(f"both players selected {user_action}. ITS A TIE! DO BETTER!")
   elif user_action == "rock":
@@ -16,10 +16,14 @@ while True:
       print("paper covers rock! YOU SCORED!")
     else:
       print("scissors cuts paper.....you suk")
-  elif user_action == "scisors":
-    ")
-
-
+  elif user_action == "scissors":
+    if computer_action == "paper":
+      print("scissors cuts paper! YOU WERE USEFUL FOR ONCE!")
+    else:
+      print("rock smashes sicssors....FAILURREEE!")
+  play_again = input("try your luck again? (y/n):")
+  if play_again != "y":
+    break
 
 
 
